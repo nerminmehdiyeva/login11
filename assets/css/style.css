@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.loginpage{
+    height: 100vh;
+    min-height: 700px;
+    display: flex !important;
+    flex-wrap: wrap;
+
+}
+.loginside{
+    height: 100vh;
+    min-height: 700px;
+    border: 1px solid none;
+    background-color: #f6f7fc;
+    min-height: 700px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+.login-conteiner{
+    border: 2px solid none;
+    height: 550px;
+    width: 600px;
+}
+.login-conteiner h4{
+    text-align: start;
+    margin-bottom: 9px;
+    font-size: 26px;
+    font-weight: 500px;
+    line-height: 1.4;
+    font-family:"Roboto", sans-serif;
+}
+.login-conteiner h4 strong{
+    font-weight: bolder;
+}
+div p{
+    margin-bottom: 19px;
+    color:    #b3b3b3;
+    font-weight: 220;
+
+}
+.register input{
+    border: none;
+    box-shadow: 0 1px 2px 0 rgb(206, 199, 199)
+    border-radius: 4px;
+    height: 54px;
+    background-color;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 17px;
+}
+.register label{
+    display: inline-block;
+
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.checkbox{
+    height: 28px;
+    width: 20px;
+    color: orangered;
+}
+.button1{
+    height: 50px;
+    width: 100%;
+    padding: 7px 12px;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+.img{
+    background-image: url(../image/bg_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    display: block;
+    order: 2;
+    border: 1px solid none;
+    }
